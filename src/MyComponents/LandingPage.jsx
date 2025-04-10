@@ -65,17 +65,17 @@ function HeroSection() {
             <div className="flex items-center gap-4 text-sm text-slate-500">
               {/* Trusted by Section with Images */}
               <div className="flex gap-6">
-                <img src="src/assets/google-logo.png" alt="Company Logo 1" className="w-12 h-12 object-contain" />
-                <img src="src/assets/ig-logo.webp" alt="Company Logo 2" className="w-12 h-12 object-contain" />
-                <img src="src/assets/vsc-logo.png" alt="Company Logo 3" className="w-12 h-12 object-contain" />
-                <img src="src/assets/fb-logo.webp" alt="Company Logo 4" className="w-12 h-12 object-contain" />
+                <img src="/assets/google-logo.png" alt="Company Logo 1" className="w-12 h-12 object-contain" />
+                <img src="/assets/ig-logo.webp" alt="Company Logo 2" className="w-12 h-12 object-contain" />
+                <img src="/assets/vsc-logo.png" alt="Company Logo 3" className="w-12 h-12 object-contain" />
+                <img src="/assets/fb-logo.webp" alt="Company Logo 4" className="w-12 h-12 object-contain" />
               </div>
               <p>Trusted by 500+ companies worldwide</p>
             </div>
           </div>
           <div className="relative h-[400px] lg:h-[500px] rounded-xl overflow-hidden">
             <img
-              src="src/assets/Job-Interview.png"
+              src="/assets/Job-Interview.png"
               alt="AI Resume Ranking System"
               className="w-full h-full object-cover"
             />
@@ -478,7 +478,7 @@ function Testimonials() {
       title: "HR Director",
       company: "TechGlobal Inc.",
       rating: 5,
-      image: "src/assets/testim-3.jpg",
+      image: "/assets/testim-3.jpg",
     },
     {
       quote:
@@ -487,7 +487,7 @@ function Testimonials() {
       title: "Founder & CEO",
       company: "InnovateLabs",
       rating: 5,
-      image: "src/assets/testim-1.jpg",
+      image: "/assets/testim-1.jpg",
     },
     {
       quote:
@@ -496,7 +496,7 @@ function Testimonials() {
       title: "Talent Acquisition Manager",
       company: "Enterprise Solutions",
       rating: 4,
-      image: "src/assets/testim-4.jpg",
+      image: "/assets/testim-4.jpg",
     },
     {
       quote:
@@ -505,7 +505,7 @@ function Testimonials() {
       title: "Senior Recruiter",
       company: "Elite Staffing",
       rating: 5,
-      image: "src/assets/testim-2.jpeg",
+      image: "/assets/testim-2.jpeg",
     },
   ];
 

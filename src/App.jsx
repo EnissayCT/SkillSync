@@ -5,6 +5,7 @@ import Footer from "./MyComponents/Footer";
 import PricingPage from "./MyComponents/PricingPage";
 import CriteriaPage from "./MyComponents/CriteriaPage";
 import CandidateLeaderboard from "./MyComponents/RankingPage";
+import ContactPage from "./MyComponents/ContactPage";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
               <Route path="/criteria" element={<CriteriaPage />} />
               <Route path="/pricing" element={<PricingPage />} />
               <Route path="/leaderboard" element={<CandidateLeaderboard />} />
+              <Route path="/contact" element={<ContactPage />} />
             </Routes>
             <Footer />
         </Router>

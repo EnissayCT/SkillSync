@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between px-4 md:px-12 h-16">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <img src="src/assets/logo-min-black.png" alt="SkillSync" className="w-8 h-8" />
+          <img src="/assets/logo-min-black.png" alt="SkillSync" className="w-8 h-8" />
           <h1 className="text-lg font-bold text-slate-900">SkillSync</h1>
         </div>
 

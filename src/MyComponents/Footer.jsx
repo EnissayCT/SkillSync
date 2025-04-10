@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Logo & Description */}
           <div>
-            <img src="src/assets/logo-min-white.png" alt="SkillSync" className="w-24 h-24" />
+            <img src="/assets/logo-min-white.png" alt="SkillSync" className="w-24 h-24" />
             <p className="mt-3 text-slate-400">
             Find the Right Talent Instantly with AI-Powered Resume Ranking
             </p>
